@@ -1,22 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import space from "./assests/Space.jpg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Dashboard from "./components/dashboard/Dashboard";
 
 function App() {
   return (
     <div className="App">
+      {/* <img src={space} alt="" /> */}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Akshay dbkdbkdkblorem Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Provident rem incidunt laborum quae unde molestiae
+        consectetur quas aliquam, impedit adipisci ducimus, vitae dolor alias
+        corporis ipsam! Impedit dolorum odio blanditiis.
       </header>
     </div>
   );
