@@ -10,7 +10,15 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsLoggedIn(true);
+    console.log("email", email);
+    console.log("password", password);
+    if (email === "test@space.com" && password === "Space123") {
+      setIsLoggedIn(true);
+    } else {
+      alert(
+        "Please enter correct test@space.com as email and Space12 as  password"
+      );
+    }
   };
 
   if (isLoggedIn) {

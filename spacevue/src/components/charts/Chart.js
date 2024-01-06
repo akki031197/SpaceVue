@@ -18,7 +18,7 @@ function Chart(props) {
     setOptions({
       data: chartData,
       title: {
-        text: "Portfolio Composition",
+        text: "Space Mission ",
       },
       series: [
         {
