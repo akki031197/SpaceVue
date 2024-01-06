@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import "./login.css";
 import Dashboard from "../dashboard/Dashboard";
 
@@ -15,9 +15,7 @@ function Login() {
     if (email === "test@space.com" && password === "Space123") {
       setIsLoggedIn(true);
     } else {
-      alert(
-        "Please enter correct test@space.com as email and Space12 as  password"
-      );
+      alert("Please enter  test@space.com as email and Space123 as  password");
     }
   };
 
