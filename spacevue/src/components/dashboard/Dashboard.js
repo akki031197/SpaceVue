@@ -24,6 +24,7 @@ function Dashboard() {
   }, [rowData, colDefs]);
 
   const gridOptions = {
+    columnHoverHighlight: true,
     pagination: true,
     paginationPageSize: 500,
     paginationPageSizeSelector: [200, 500, 1000],

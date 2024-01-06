@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { AgChartsReact } from "ag-charts-react";
+import "./chart.css";
 
 function Chart(props) {
   const [options, setOptions] = useState({}); // Initialize options later
@@ -20,6 +21,7 @@ function Chart(props) {
       title: {
         text: "Space Mission ",
       },
+
       series: [
         {
           type: "pie",
